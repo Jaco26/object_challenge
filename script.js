@@ -6,14 +6,14 @@ var locations = []; // this array will hold your objects
 
 // add object instances to locations array
 
-// console.log out each object in the locations array
 
-
-// HARD MODE: Put these objects on the DOM using jQuery
+// DOM is ready, have at it!
 $(document).ready(start());
 
+
 function start() {
-  // DOM is ready, have at it!
   console.log('DOM is ready.');
+  
+  // append locations to the DOM as a list  
   
 }

@@ -1,19 +1,19 @@
 var locations = []; // this array will hold your objects
 
-// object constructor
+// write object constructor function
 
-// object instances
+// create object instances
 
-// push object instances to locations array
+// add object instances to locations array
 
-// DO NOT MODIFY THIS CODE
-$(document).ready(function () {
-  locations.forEach(function (element, index) {
-    var $li = $('<li></li>');
-    $li.append('<span>' +  element.state + '</span>');
-    $li.append('<span>' +  element.revenue + '</span>');
-    $li.append('<span>' +  element.locationCount + '</span>');
-    $li.append('<span>' +  element.averageRevenue() + '</span>');
-    $('ol').append($li);
-  });
-});
+// console.log out each object in the locations array
+
+
+// HARD MODE: Put these objects on the DOM
+$(document).ready(start());
+
+function start() {
+  // DOM is ready, have at it!
+  console.log('DOM is ready.');
+  
+}

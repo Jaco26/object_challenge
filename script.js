@@ -9,7 +9,7 @@ var locations = []; // this array will hold your objects
 // console.log out each object in the locations array
 
 
-// HARD MODE: Put these objects on the DOM
+// HARD MODE: Put these objects on the DOM using jQuery
 $(document).ready(start());
 
 function start() {
